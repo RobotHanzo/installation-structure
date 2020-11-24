@@ -11,7 +11,7 @@ class Initialization(QMainWindow):
         self.setWindowTitle(f'{program_name} Installer')
         self.setMaximumSize(640, 480)
         self.setMinimumSize(640, 480)
-        self.setStyleSheet("QLabel {font: 30pt Microsoft Sans Serif}")
         welcome_large_label = QLabel(f'{program_name} Installer')
         welcome_large_label.setAlignment(Qt.AlignTop)
+        welcome_large_label.setStyleSheet("QLabel {font: 30pt Microsoft Sans Serif}")
         self.setCentralWidget(welcome_large_label)
